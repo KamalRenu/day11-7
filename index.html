@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe Form</title>
+</head>
+<body>
+    <style>
+        input{
+            border: 0;
+            outline: 0;
+            background: transparent;
+            border-bottom: 1px solid black;
+        }
+        .demo{
+            border: 1px solid black;
+            margin-right: 300px;
+            margin-left: 300px;
+        }
+        #name1{
+            float: left;
+            width: 48%;
+        }
+        #name2{
+            float: right;
+            width: 48%;
+        }
+    </style>
+    <div class="demo">
+        <h4 style="background-color: red;">Yes I want to subscribe to Mag-O-Zine</h4>
+        <div id="name1">
+            <input type="text" id="firstname"><br>
+            <label for="">First Name</label>
+        </div>
+        <div id="name2">
+            <input type="text" id="lastname"><br>
+            <label for="">Last Name</label><br>
+        </div>
+        <div>
+            <input type="text" id="address"><br>
+            <label for="">Address</label><br>
+        </div>
+        <div style="float: left; width: 33%;">
+            <input type="text" id="city"><br>
+            <label for="">City</label>
+        </div>
+        <div style="float: right;">
+            <input type="text" id="zip"><br>
+            <label for="">Zip</label>
+        </div>
+        <div>
+            <input type="text" id="state"><br>
+            <label for="">State</label>
+        </div>
+        <h4>Subscribe for:</h4>
+        <div style="float: right;">
+            <input type="checkbox" id="checkbox1">
+            <label>1 year($19.95)</label>
+            <input type="checkbox" id="checkbox2">
+            <label>2 year($35.00)</label>
+        </div>
+        <h4>Send me more information about:</h4>
+        <input type="checkbox" id="check1">
+        <label>Computer-Zine</label><br>
+        <input type="checkbox" id="check2">
+        <label>Fishing-Zine</label><br>
+        <input type="checkbox" id="check3">
+        <label>Cat-O-Zine</label>
+    </div>
+</body>
+</html>
